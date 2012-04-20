@@ -24,7 +24,7 @@ We'll need libmemcached (http://libmemcached.org).
 
 ````
 wget http://launchpad.net/libmemcached/1.0/0.52/+download/libmemcached-0.52.tar.gz
-tar xvfz libmemcached-0.52.tar.gz
+tar -xvzf libmemcached-0.52.tar.gz
 cd libmemcached-0.52
 ./configure
 ./make
